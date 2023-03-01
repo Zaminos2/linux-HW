@@ -1,0 +1,13 @@
+   0 mkdir -p /home/user/start && > /home/user/start/1.txt
+   1 tree /home/user
+   2 vi /home/user/start/1.txt 
+   3 date >> /home/user/start/1.txt 
+   4 vi /home/user/start/1.txt 
+   5 mkdir -p /opt/task && cp /home/user/start/1.txt /opt/task/task.txt
+   6 tree /opt/task/
+   7 vi /opt/task/task.txt 
+   8 mv /opt/task/task.txt /opt/task/start.txt
+   9 ls --help
+  10 ls -a / | tail -4 >> /opt/task/start.txt  
+  11 vi /opt/task/start.txt 
+  12 history > /home/history2.txt | export_file /home/history2.txt
