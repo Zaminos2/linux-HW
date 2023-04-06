@@ -1,0 +1,6 @@
+
+  103  nano myfirstbashscript.sh
+  104  chmod 744 myfirstbashscript.sh 
+  105  ./myfirstbashscript.sh
+  106  hitory >> history.txt
+  107  history >> history.txt
