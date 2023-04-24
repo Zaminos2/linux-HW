@@ -1,0 +1,10 @@
+  116  df -h
+  117  pwd
+  118  date >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt
+  119  df -h / | awk '{print %5}' >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt 
+  120  df -h / | awk '{print $5}' >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt
+  121  history | tail -5 >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt 
+  122  cat /proc/cpuinfo 
+  123  grep "vendor_id" /proc/cpuinfo >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt 
+  124  nano /c/Users/Tel-ran.de/Desktop/linux/myfile.txt 
+  125  history | tail >> /c/Users/Tel-ran.de/Desktop/linux/history_24.04.2023
