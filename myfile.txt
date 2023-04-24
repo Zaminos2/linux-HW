@@ -1,0 +1,12 @@
+Mon Apr 24 15:51:16 WEST 2023
+Use%
+65G
+  117  pwd
+  118  date >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt
+  119  df -h / | awk '{print %5}' >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt 
+  120  df -h / | awk '{print $5}' >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt
+  121  history | tail -5 >> /c/Users/Tel-ran.de/Desktop/linux/myfile.txt 
+ GenuineIntel
+ GenuineIntel
+ GenuineIntel
+ GenuineIntel
